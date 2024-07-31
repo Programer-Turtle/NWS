@@ -6,7 +6,7 @@ This program is not responsible if weather data is innacurate, nor should you re
 
 # Install
 ```
-pip install NWSweather
+pip install NWS
 ```
 
 # Setup
