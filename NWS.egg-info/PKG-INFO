@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: NWS
-Version: 1.2
+Version: 1.3
 Summary: A module that uses the National Weather Service's API to get weather data meaning no need for an account, or API token.
 Author: Programer-Turtle
 Description-Content-Type: text/markdown
