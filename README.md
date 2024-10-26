@@ -14,7 +14,7 @@ Everyscript must start with the initiate API function. This requires you to put 
 
 **Example on how to Initiate API**
 ```
-import NWSweather as weather
+import NWS as weather
 
 #Location of NOAA headquarters in Washington DC
 latitude = "38.89355704224317"
@@ -26,7 +26,7 @@ print(weather.GetCurrentTemperature(latitude, longitude))
 
 **Example on how to Bypass API**
 ```
-import NWSweather as weather
+import NWS as weather
 
 #Location of NOAA headquarters in Washington DC
 latitude = "38.89355704224317"
@@ -43,7 +43,7 @@ This is all the functions avaiable to you
 Returns the hourly forecast data from the NWS in a dictionary.
 
 ```
-import NWSweather
+import NWS
 
 #Location of NOAA headquarters in Washington DC
 latitude = "38.89355704224317"
@@ -57,7 +57,7 @@ NWSweather.GetHourlyForecast(latitude, longitude)
 Returns the currently predicted forecast data from the NWS in a dictionary.
 
 ```
-import NWSweather
+import NWS
 
 #Location of NOAA headquarters in Washington DC
 latitude = "38.89355704224317"
@@ -71,7 +71,7 @@ NWSweather.GetCurrentForecast(latitude, longitude)
 Returns the currently predicted conditions data from the NWS in a dictionary.
 
 ```
-import NWSweather
+import NWS
 
 #Location of NOAA headquarters in Washington DC
 latitude = "38.89355704224317"
@@ -85,7 +85,7 @@ NWSweather.GetCurrentConditions(latitude, longitude)
 Returns the currently predicted temperature from the NWS.
 
 ```
-import NWSweather
+import NWS
 
 #Location of NOAA headquarters in Washington DC
 latitude = "38.89355704224317"
@@ -99,7 +99,7 @@ NWSweather.GetCurrentTemperature(latitude, longitude)
 Returns the currently predicted wind data from the NWS in a dictionary.
 
 ```
-import NWSweather
+import NWS
 
 #Location of NOAA headquarters in Washington DC
 latitude = "38.89355704224317"
@@ -113,7 +113,7 @@ NWSweather.GetCurrentWindData(latitude, longitude)
 Returns any active weather alert data in a dictionary, and will return null if no alerts.
 
 ```
-import NWSweather
+import NWS
 
 #Location of NOAA headquarters in Washington DC
 latitude = "38.89355704224317"
